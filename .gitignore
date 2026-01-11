@@ -1,2 +1,5 @@
 LSTM_diagnostics/
 *.ipynb_checkpoints/
+*.gdoc
+*.gsheet
+*.gslides
