@@ -1,0 +1,8 @@
+﻿model,split,level,N,violations,viol_rate,kupiec_LR,kupiec_p,cc_LR,cc_p,ind_p,n00,n01,n10,n11,uc_pass,cc_pass
+LSTM_Base,train,95,4035,312,0.077323,54.7495,0.0,54.9763,0.0,0.6339,3432,290,290,22,False,False
+GARCH,train,95,4035,234,0.057993,5.1727,0.0229,5.1876,0.0747,0.9027,3580,220,220,14,False,True
+GK_Realized,train,95,4035,176,0.043618,3.6086,0.0575,4.0399,0.1327,0.5114,3688,170,170,6,True,True
+LSTM_Frozen,test_frozen,95,877,80,0.09122,25.492,0.0,25.7898,0.0,0.5853,722,74,74,6,False,False
+LSTM_WF_B,test_wf,95,877,77,0.087799,21.7436,0.0,21.8518,0.0,0.7421,728,71,71,6,False,False
+GARCH,test_wf,95,877,59,0.067275,4.9952,0.0254,6.0437,0.0487,0.3058,764,53,53,6,False,False
+GK_Realized,test_wf,95,877,42,0.047891,0.0833,0.7729,1.8069,0.4052,0.1892,796,38,38,4,True,True
